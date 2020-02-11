@@ -1,3 +1,35 @@
-body{
-    background-color:  black;
+/* body{
+    display:block;  
+} */
+.coluna_inicial{
+    position: absolute; top: 15px; left: 350px; /*posição do formulario*/
 }
+.coluna_inicial input:hover{
+    border-radius: 30px ; /*borta arredondada*/
+    background-color: rgb(242, 243, 243);
+    width: 200px;  /*largura*/
+}
+.botoes_coluna input{
+    display:block;/*forma uma coluna */ 
+    border-radius: 30px ; /*borta arredondada*/
+    width: 200px;  /*largura */
+    height: 40px; /*altura */
+    background: white;/*cor do botão*/
+    font-family:Ubuntu;
+    font-weight: bold;/*negrito*/
+    font-size: 18px;
+    border: none;
+
+} 
+.passarinho_twitter:hover{
+    background-color: rgb(242, 243, 243);
+    border-radius: 30px; /*borta arredondada*/
+    /* width: 50px;  
+    height: 50px; */
+}
+.passarinho_twitter{
+    width: 23px;  
+    height: 28px; 
+    gggggggggg
+}
+
