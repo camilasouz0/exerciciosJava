@@ -1,6 +1,7 @@
-/* body{
-    display:block;  
-} */
+body{
+    overflow: auto; 
+}
+
 .coluna_inicial{
     position: absolute; top: 15px; left: 350px; /*posição do formulario*/
 }
@@ -13,23 +14,65 @@
     display:block;/*forma uma coluna */ 
     border-radius: 30px ; /*borta arredondada*/
     width: 200px;  /*largura */
-    height: 40px; /*altura */
+    height: 60px; /*altura */
     background: white;/*cor do botão*/
     font-family:Ubuntu;
     font-weight: bold;/*negrito*/
     font-size: 18px;
-    border: none;
-
+    border: none; 
 } 
+.tweetar input{
+    display:block;/*forma uma coluna */ 
+    border-radius: 30px ; /*borta arredondada*/
+    width: 200px;  /*largura */
+    height: 50px; /*altura */
+    background: rgb(29, 161, 242);/*cor do botão*/
+    font-family:Ubuntu;
+    font-weight: bold;/*negrito*/
+    font-size: 15px;
+    border-left: none; /*cor da borda*/
+    border-right: none;
+    border-bottom: none; 
+    border-top: none; 
+}
 .passarinho_twitter:hover{
     background-color: rgb(242, 243, 243);
     border-radius: 30px; /*borta arredondada*/
     /* width: 50px;  
     height: 50px; */
 }
-.passarinho_twitter{
+.passarinho_twitter{ 
     width: 23px;  
     height: 28px; 
-    gggggggggg
 }
+h4{
+    position: absolute; left: 40px; top:0;/*posição do formulario*/         
+
+}
+.scroll{
+    font-family:Ubuntu;
+    font-weight: bold;/*negrito*/
+    font-size: 18px;
+    position: absolute; left: 590px; top:0;/*posição do scroll*/
+    width: 600px;  
+    height: 1000px; /*altura */ 
+    border-left: 1px solid rgb(216, 226, 226); /*cor da borda*/
+    border-right: 1px solid rgb(216, 226, 226);
+    /* border-bottom: 1px solid rgb(216, 226, 226);  */
+    border-top: 1px solid rgb(216, 226, 226); 
+
+}
+.postar_tweet{
+    background-color: tomato;
+    width: 600px;  
+    height: 200px;/*altura*/
+    border-bottom: 9px solid rgb(216, 226, 226); 
+}
+.postar_tweet input{
+    border: none;
+    position: absolute; left: 85px; top: 75px;/*posição do input*/
+    height: 30px;
+    float:left;
+}
+
 
