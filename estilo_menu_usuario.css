@@ -1,5 +1,6 @@
 body{
     overflow: auto; 
+    font-family:Ubuntu;
 }
 
 .coluna_inicial{
@@ -16,7 +17,6 @@ body{
     width: 200px;  /*largura */
     height: 60px; /*altura */
     background: white;/*cor do botão*/
-    font-family:Ubuntu;
     font-weight: bold;/*negrito*/
     font-size: 18px;
     border: none; 
@@ -27,7 +27,6 @@ body{
     width: 200px;  /*largura */
     height: 50px; /*altura */
     background: rgb(29, 161, 242);/*cor do botão*/
-    font-family:Ubuntu;
     font-weight: bold;/*negrito*/
     font-size: 15px;
     border-left: none; /*cor da borda*/
@@ -46,14 +45,13 @@ body{
     height: 28px; 
 }
 h4{
-    position: absolute; left: 40px; top:0;/*posição do formulario*/         
+    position: absolute; left: 30px; top:0px;/*posição do formulario*/    
 
 }
 .scroll{
-    font-family:Ubuntu;
     font-weight: bold;/*negrito*/
     font-size: 18px;
-    position: absolute; left: 590px; top:0;/*posição do scroll*/
+    position: absolute; left: 590px; top: 0px;/*posição do scroll*/
     width: 600px;  
     height: 1000px; /*altura */ 
     border-left: 1px solid rgb(216, 226, 226); /*cor da borda*/
@@ -63,16 +61,53 @@ h4{
 
 }
 .postar_tweet{
-    background-color: tomato;
     width: 600px;  
     height: 200px;/*altura*/
     border-bottom: 9px solid rgb(216, 226, 226); 
 }
 .postar_tweet input{
     border: none;
+    font-size: 18px;
     position: absolute; left: 85px; top: 75px;/*posição do input*/
-    height: 30px;
+    width: 500px;  /*largura */
+    height: 30px; /*altura */
     float:left;
+}
+.enviar input{
+    position: absolute; left: 485px; top:140px;/*posição do botão*/ 
+    display:block;/*forma uma coluna */ 
+    border-radius: 30px; /*borta arredondada*/ 
+    background: rgb(29, 161, 242);/*cor do botão*/
+    color: white;
+    width: 100px;  /*largura */
+    height: 40px; /*altura */
+    font-weight: bold;/*negrito*/
+    font-size: 15px;
+    border-left: none; /*cor da borda*/
+    border-right: none;
+    border-bottom: none; 
+    border-top: none; 
+}
+.buscar input{
+    position: absolute; left: 1220px; top:10px;/*posição do busca*/ 
+    border-radius: 30px; /*borta arredondada*/ 
+    font-size: 17px;
+    background-color: rgb(242, 243, 243); 
+    border: none; 
+    width: 340px;/*largura*/ 
+    height: 40px;/*altura*/
+    text-align: center;
+
+}
+.dentro_conteiner{
+    position: absolute; left: 1220px; top:70px;/*posição do formulario*/ 
+    border-radius: 30px; /*borta arredondada*/
+    font-size: 17px;
+    font-weight: bold;/*negrito*/
+    background-color: rgb(242, 243, 243);
+    width: 340px;  /*largura */
+    height: 720px; /*altura */
+    border: none;
 }
 
 
