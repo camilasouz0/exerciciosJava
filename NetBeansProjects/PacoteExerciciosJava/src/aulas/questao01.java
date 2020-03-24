@@ -3,7 +3,7 @@ package aulas;
 
 import java.util.*;
 /**
- * @author camila souza
+ * @author camila
  */
 public class questao01 {
     public static void main(final String[] args) {
