@@ -1,6 +1,8 @@
 
 package aulas;
-
+/**
+ * @author camila souza
+ */
 public class Aula_02 {
     
     public static void main(String[] args) {

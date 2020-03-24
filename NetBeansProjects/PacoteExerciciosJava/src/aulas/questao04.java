@@ -39,6 +39,7 @@ public class questao04 {
             num[i] = entrada.nextInt();
 
 	} 
+        System.out.print("\nORDENADO: ");
         ordenar(num);
         mostrar(num);
     }
